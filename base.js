@@ -74,7 +74,6 @@ function saveSettings() {
 */
 function loginout() {
 	if (localStorage.localLogin != 3) {
-		//$.mobile.changePage("#login");
 		$.mobile.changePage("#login");
 	} else {
 		logout();
@@ -179,7 +178,6 @@ function logout() {
 $("#logmsg").html("Settings for " + username + " trying to contact server ...");
 function how() {
 	$.mobile.changePage("#howitworks");
-	$.username.html("#loggedin");
 }
 
 function clearData() {
